@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap version="1" name="ross copy" parent="Mac OS X">
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="control meta LEFT" />
+  </action>
+  <action id="CloseActiveTab" />
+  <action id="CloseAllEditorsButActive">
+    <keyboard-shortcut first-keystroke="shift meta F4" />
+    <keyboard-shortcut first-keystroke="shift meta W" />
+  </action>
+  <action id="CloseEditor">
+    <keyboard-shortcut first-keystroke="meta F4" />
+    <keyboard-shortcut first-keystroke="meta W" />
+  </action>
+  <action id="Console.Execute" />
+  <action id="Diff.NextChange">
+    <keyboard-shortcut first-keystroke="meta alt RIGHT" />
+  </action>
+  <action id="Diff.PrevChange">
+    <keyboard-shortcut first-keystroke="meta alt LEFT" />
+  </action>
+  <action id="EditorChooseLookupItem" />
+  <action id="EditorChooseLookupItemCompleteStatement">
+    <keyboard-shortcut first-keystroke="shift meta ENTER" />
+    <keyboard-shortcut first-keystroke="ENTER" />
+  </action>
+  <action id="EditorNextWord">
+    <keyboard-shortcut first-keystroke="alt RIGHT" />
+    <keyboard-shortcut first-keystroke="control RIGHT" />
+  </action>
+  <action id="EditorPreviousWord">
+    <keyboard-shortcut first-keystroke="alt LEFT" />
+    <keyboard-shortcut first-keystroke="control LEFT" />
+  </action>
+  <action id="EditorScrollDown" />
+  <action id="EditorScrollUp" />
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="control W" />
+  </action>
+  <action id="EditorTextEnd">
+    <keyboard-shortcut first-keystroke="meta END" />
+    <keyboard-shortcut first-keystroke="meta DOWN" />
+  </action>
+  <action id="EditorTextEndWithSelection">
+    <keyboard-shortcut first-keystroke="shift meta END" />
+    <keyboard-shortcut first-keystroke="shift meta DOWN" />
+  </action>
+  <action id="EditorTextStart">
+    <keyboard-shortcut first-keystroke="meta HOME" />
+    <keyboard-shortcut first-keystroke="meta UP" />
+  </action>
+  <action id="EditorTextStartWithSelection">
+    <keyboard-shortcut first-keystroke="shift meta HOME" />
+    <keyboard-shortcut first-keystroke="shift meta UP" />
+  </action>
+  <action id="EditorToggleColumnMode">
+    <keyboard-shortcut first-keystroke="shift meta MULTIPLY" />
+    <keyboard-shortcut first-keystroke="shift meta 8" />
+  </action>
+  <action id="EditorUnSelectWord">
+    <keyboard-shortcut first-keystroke="shift control W" />
+  </action>
+  <action id="FileChooser.TogglePathShowing" />
+  <action id="FindInPath">
+    <keyboard-shortcut first-keystroke="shift control F" />
+    <keyboard-shortcut first-keystroke="shift meta F" />
+  </action>
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="F3" />
+    <keyboard-shortcut first-keystroke="meta G" />
+  </action>
+  <action id="FindPrevious">
+    <keyboard-shortcut first-keystroke="shift F3" />
+    <keyboard-shortcut first-keystroke="shift control L" />
+    <keyboard-shortcut first-keystroke="shift meta G" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="control meta RIGHT" />
+  </action>
+  <action id="Git.Checkout">
+    <keyboard-shortcut first-keystroke="meta B" />
+  </action>
+  <action id="Git.Push">
+    <keyboard-shortcut first-keystroke="meta P" />
+  </action>
+  <action id="Git.Revert" />
+  <action id="GotoDeclaration">
+    <mouse-shortcut keystroke="meta button1" />
+    <mouse-shortcut keystroke="button2" />
+  </action>
+  <action id="GotoLine" />
+  <action id="GuiDesigner.ExpandSelection" />
+  <action id="GuiDesigner.ShrinkSelection" />
+  <action id="HighlightUsagesInFile">
+    <keyboard-shortcut first-keystroke="shift meta F7" />
+    <keyboard-shortcut first-keystroke="F7" />
+  </action>
+  <action id="HippieCompletion">
+    <keyboard-shortcut first-keystroke="alt SLASH" />
+    <keyboard-shortcut first-keystroke="alt SPACE" />
+  </action>
+  <action id="Images.Thumbnails.EnterAction" />
+  <action id="Images.Thumbnails.Hide">
+    <keyboard-shortcut first-keystroke="meta F4" />
+  </action>
+  <action id="InsertHashRocket">
+    <keyboard-shortcut first-keystroke="meta L" />
+    <keyboard-shortcut first-keystroke="control L" />
+  </action>
+  <action id="InspectCode">
+    <keyboard-shortcut first-keystroke="control meta I" />
+  </action>
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="shift alt DOWN" />
+    <keyboard-shortcut first-keystroke="control meta DOWN" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="shift alt UP" />
+    <keyboard-shortcut first-keystroke="control meta UP" />
+  </action>
+  <action id="MoveStatementDown" />
+  <action id="MoveStatementUp" />
+  <action id="NextDiff" />
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="meta alt RIGHT" />
+  </action>
+  <action id="NextTemplateVariable">
+    <keyboard-shortcut first-keystroke="TAB" />
+  </action>
+  <action id="ParameterInfo" />
+  <action id="PerforceDirect.Add">
+    <keyboard-shortcut first-keystroke="meta alt A" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="meta alt LEFT" />
+  </action>
+  <action id="ReplaceInPath">
+    <keyboard-shortcut first-keystroke="shift control R" />
+    <keyboard-shortcut first-keystroke="shift meta R" />
+  </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift F10" />
+    <keyboard-shortcut first-keystroke="alt F10" />
+    <keyboard-shortcut first-keystroke="shift alt F10" />
+    <keyboard-shortcut first-keystroke="meta F8" />
+  </action>
+  <action id="RunClass">
+    <keyboard-shortcut first-keystroke="shift meta F10" />
+    <keyboard-shortcut first-keystroke="shift meta F8" />
+  </action>
+  <action id="RunConfiguration" />
+  <action id="SelectIn">
+    <keyboard-shortcut first-keystroke="alt F1" />
+    <keyboard-shortcut first-keystroke="meta alt 1" />
+  </action>
+  <action id="ShelvedChanges.Rename">
+    <keyboard-shortcut first-keystroke="shift F6" />
+  </action>
+  <action id="ShowExecutionPoint" />
+  <action id="StepInto" />
+  <action id="StepOver" />
+  <action id="Subversion.Add">
+    <keyboard-shortcut first-keystroke="meta alt A" />
+  </action>
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="control alt ENTER" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="control alt DOWN" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="control alt LEFT" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="control alt RIGHT" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="control alt UP" />
+  </action>
+  <action id="ToggleLineBreakpoint" />
+  <action id="ViewBreakpoints" />
+  <action id="XDebugger.JumpToSource">
+    <keyboard-shortcut first-keystroke="shift meta 1" />
+  </action>
+  <action id="org.jetbrains.plugins.ruby.rails.actions.navigation.SwitchToController">
+    <keyboard-shortcut first-keystroke="control meta alt UP" />
+  </action>
+  <action id="org.jetbrains.plugins.ruby.rails.actions.navigation.SwitchToView">
+    <keyboard-shortcut first-keystroke="control meta alt DOWN" />
+  </action>
+  <action id="org.jetbrains.plugins.ruby.rails.actions.rake.ReloadRakeTasksAction">
+    <keyboard-shortcut first-keystroke="control R" />
+  </action>
+  <action id="org.jetbrains.plugins.ruby.rake.actions.RakeTasksPopupAction">
+    <keyboard-shortcut first-keystroke="alt R" />
+    <keyboard-shortcut first-keystroke="meta alt R" />
+  </action>
+  <action id="rails:generator:controller">
+    <keyboard-shortcut first-keystroke="meta alt G" second-keystroke="C" />
+  </action>
+  <action id="rails:generator:migration">
+    <keyboard-shortcut first-keystroke="meta alt G" second-keystroke="I" />
+  </action>
+  <action id="rails:generator:model">
+    <keyboard-shortcut first-keystroke="meta alt G" second-keystroke="M" />
+  </action>
+  <action id="rails:generator:resource">
+    <keyboard-shortcut first-keystroke="meta alt G" second-keystroke="R" />
+  </action>
+  <action id="rails:generator:rspec_controller" />
+  <action id="rails:generator:rspec_model" />
+  <action id="rails:generator:rspec_scaffold" />
+  <action id="rails:generator:scaffold" />
+  <action id="rake:db:migrate" />
+  <action id="rake:db:test:prepare" />
+  <action id="rake:spec">
+    <keyboard-shortcut first-keystroke="control F10" />
+    <keyboard-shortcut first-keystroke="shift control F10" />
+    <keyboard-shortcut first-keystroke="F8" />
+  </action>
+  <action id="rake:test">
+    <keyboard-shortcut first-keystroke="control F8" />
+  </action>
+</keymap>
+
